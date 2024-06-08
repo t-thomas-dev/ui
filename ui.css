@@ -1,0 +1,38 @@
+//     version  6/8/24  13:29
+
+// buttons
+  // Hover underline animation https://uiverse.io/alexmaracinaru/empty-moose-12
+  .cta {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .cta span {
+    padding-bottom: 4px;
+    font-size: 14px;
+  }
+  
+  .underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 10px;
+  }
+  
+  .underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .cta:hover .underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
