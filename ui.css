@@ -1,6 +1,6 @@
 //     version  6/8/24  13:29
 
-// buttons
+// underline
   // Hover underline animation https://uiverse.io/alexmaracinaru/empty-moose-12
   .cta {
     border: none;
@@ -35,4 +35,12 @@
   .cta:hover .underline-animation:after {
     transform: scaleX(1);
     transform-origin: bottom left;
+  }
+  // Hover thin/thick underline
+  .underline {
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+  }
+  .underline:hover {
+    text-decoration-thickness: 2px;
   }
