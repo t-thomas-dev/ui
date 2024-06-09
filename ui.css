@@ -50,6 +50,6 @@
   .underline:hover {
     color: #0d6efd !important;
     text-decoration-color: #0d6efd !important;
-    text-decoration-thickness: 2.4px;
+    text-decoration-thickness: 2.4px !important;
     text-underline-offset: 0.3rem !important;
   }
