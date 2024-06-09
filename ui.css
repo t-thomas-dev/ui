@@ -35,7 +35,7 @@
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
-  .cta:hover .underline-animation:after {
+  .cta:hover, .underline-animation:after {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
@@ -45,11 +45,11 @@
   .underline {
     text-decoration-line: underline;
     text-decoration-thickness: 1px;
-    text-underline-offset: 0.3em !important;
+    text-underline-offset: 0.3rem !important;
   }
   .underline:hover {
     color: #0d6efd !important;
     text-decoration-color: #0d6efd !important;
     text-decoration-thickness: 2.6px;
-    text-underline-offset: 0.3em !important;
+    text-underline-offset: 0.3rem !important;
   }
