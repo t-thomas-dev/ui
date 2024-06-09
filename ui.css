@@ -5,13 +5,12 @@
   // Hover underline animation https://uiverse.io/alexmaracinaru/empty-moose-12
 
   .cta {
-    border: none;
-    background: none;
+    border: none !important;
+    background: none !important;
     cursor: pointer;
   }
   .cta span {
     padding-bottom: 4px;
-    font-size: 14px;
   }
   .underline-animation {
     position: relative;
