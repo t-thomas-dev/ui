@@ -47,5 +47,6 @@
     text-decoration-thickness: 1px;
   }
   .underline:hover {
-    text-decoration-thickness: 2px;
+    color:#0d6efd !important;
+    text-decoration-thickness: 2.5px;
   }
