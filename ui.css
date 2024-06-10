@@ -192,15 +192,48 @@
   // Hover thin/thick underline
 
   .underline {
-    transition: var(--transition);
     text-decoration: underline;
     text-decoration-thickness: 1px  !important;
     text-underline-offset: 0.2rem !important;
   }
   .underline:hover {
-    transition: var(--transition);
     color: #0d6efd !important;
     text-decoration-color: #0d6efd !important;
     text-decoration-thickness: 2.46px !important;
     text-underline-offset: 0.15rem !important;
+  }
+
+/*
+ *    |‾‾‾‾   ‾‾‾|‾‾‾     /‾‾         |     |    /‾‾‾‾\    \      /   |‾‾‾‾   |‾‾‾\
+ *    |          |      /             |_____|   |      |    \    /    |       |___/
+ *    |‾‾‾‾      |      \             |     |   |      |     \  /     |‾‾‾‾   |  \
+ *    |____      |        \__         |     |    \____/       \/      |____   |   \
+*/
+
+  .scale:hover{
+    cursor: pointer;
+    scale: 1.05;
+    transition: var(--transition);
+  }
+  
+  /* Float */
+  .float:hover{
+    cursor: pointer;
+    transform: translateY(-12px);
+    transition: var(--transition);
+  }
+  
+  /* fill */
+  .fill{
+    cursor: pointer;
+    font: var(--h1);
+    cursor: pointer;
+    color: transparent;
+    -webkit-text-stroke-color: var(--bs-primary);
+    -webkit-text-stroke-width: 1px;
+  }
+  .fill:hover {
+    cursor: pointer;
+    color: var(--bs-primary);
+    transition: var(--transition);
   }
