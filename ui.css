@@ -127,10 +127,10 @@
     --transition: 0.3s ease-in-out;
   }
 
-  *:focus-visible {
-    outline: 3px solid var(--bs-primary);
+  *:where(:not(:active)):focus-visible {
+    outline: 3px solid var(--bs-focus-ring-color);
     border-radius: 1.2px;
-    outline-offset: 4px;
+    outline-offset: 3px;
   }
 
 
@@ -186,6 +186,6 @@
   .underline:hover {
     color: #0d6efd !important;
     text-decoration-color: #0d6efd !important;
-    text-decoration-thickness: 2.5px !important;
-    text-underline-offset: 0.2rem !important;
+    text-decoration-thickness: 2.42px !important;
+    text-underline-offset: 0.15rem !important;
   }
