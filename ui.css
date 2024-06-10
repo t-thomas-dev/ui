@@ -7,6 +7,7 @@
  *    ____/   |____      |       \____/    |
  */
   :root{
+    // Bootstrap
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
@@ -124,11 +125,13 @@
     --bs-form-valid-border-color: #198754;
     --bs-form-invalid-color: #dc3545;
     --bs-form-invalid-border-color: #dc3545;
+    // Custom vars
+    --focus-ring-color: 
     --transition: 0.3s ease-in-out;
   }
 
   *:where(:not(:active)):focus-visible {
-    outline: 3px solid var(--bs-focus-ring-color);
+    outline: 3px solid #0d6efdBF;
     border-radius: 1.2px;
     outline-offset: 3px;
   }
