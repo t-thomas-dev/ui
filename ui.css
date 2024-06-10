@@ -130,13 +130,13 @@
   }
 
   *:focus-visible {
-    transition: var(--transition);
-    outline: 3px solid rgba(0, 94, 235, 0.76);
+    transition: 0.11s ease-in-out;
+    outline: 3px solid rgba(0, 94, 235, 0.84);
     border-radius: 1.2px;
     outline-offset: 1px;
   }
   *:where(:not(:active)):focus-visible {
-    transition: var(--transition);
+    transition: 0.11s ease-in-out;
     outline: 3px solid rgba(0, 94, 235, 0.70);
     border-radius: 1.2px;
     outline-offset: 3px;
