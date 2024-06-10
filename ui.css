@@ -126,12 +126,12 @@
     --bs-form-invalid-color: #dc3545;
     --bs-form-invalid-border-color: #dc3545;
     // Custom vars
-    --focus-ring-color: 
+    --focus-ring-color: #0d6efdCC;
     --transition: 0.3s ease-in-out;
   }
 
   *:where(:not(:active)):focus-visible {
-    outline: 3px solid #0d6efdBF;
+    outline: 3px solid var(--focus-ring-color);
     border-radius: 1.2px;
     outline-offset: 3px;
   }
