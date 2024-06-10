@@ -218,6 +218,7 @@
   .scale:hover{
     cursor: pointer;
     scale: 1.05;
+    transform-origin: center;
   }
   
   /* Float */
