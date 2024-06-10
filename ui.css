@@ -132,6 +132,9 @@
   * {
       transition: 0.3s ease-in-out;
   }
+  *:hover {
+      transition: 0.3s ease-in-out;
+  }
   *:focus-visible {
     transition: 0.11s ease-in-out;
     outline: 3px solid rgba(0, 94, 235, 0.84);
@@ -234,4 +237,12 @@
   .fill:hover {
     cursor: pointer;
     color: var(--bs-primary);
+  }
+
+  //reveal
+  span{
+    opacity: 0;
+  }
+  .reveal:hover span{
+    opacity: 1;
   }
