@@ -129,8 +129,8 @@
     --focus-ring-color: rgba(13, 110, 253, 0.75);
     --transition: 0.3s ease-in-out;
   }
-//:where(:not(:active))
-  *:focus-visible {
+
+  *:where(:not(:active)):focus-visible {
     outline: 3px solid var(--focus-ring-color);
     border-radius: 1.2px;
     outline-offset: 3px;
