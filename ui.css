@@ -187,8 +187,9 @@
     text-underline-offset: 0.2rem !important;
   }
   .underline:hover {
+    transition: var(--transition);
     color: #0d6efd !important;
     text-decoration-color: #0d6efd !important;
-    text-decoration-thickness: 2.42px !important;
+    text-decoration-thickness: 2.46px !important;
     text-underline-offset: 0.15rem !important;
   }
