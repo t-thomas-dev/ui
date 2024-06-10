@@ -131,11 +131,9 @@
 
   * {
       transition: 0.3s ease-in-out;
-      display: inline-block;
   }
   *:hover {
       transition: 0.3s ease-in-out;
-      display: inline-block;
   }
   *:focus-visible {
     transition: 0.11s ease-in-out;
@@ -220,6 +218,7 @@
   .scale:hover{
     cursor: pointer;
     scale: 1.05;
+    display: inline-block;
     transform-origin: center;
   }
   
