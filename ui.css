@@ -166,6 +166,8 @@
   .cta span {
     padding-bottom: 4px;
     text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: 0px;
   }
   .underline-animation {
     position: relative;
