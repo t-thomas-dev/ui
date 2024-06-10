@@ -126,7 +126,7 @@
     --bs-form-invalid-color: #dc3545;
     --bs-form-invalid-border-color: #dc3545;
     // Custom vars
-    --transition: 0.3s ease-in-out;
+    //--transition: 0.3s ease-in-out;
     --focus-ring-color: rgba(13, 110, 253, 0.75);
   }
 
@@ -182,6 +182,7 @@
   // Hover thin/thick underline
 
   .underline {
+    transition: var(--transition);
     text-decoration: underline;
     text-decoration-thickness: 1px  !important;
     text-underline-offset: 0.2rem !important;
