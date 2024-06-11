@@ -229,12 +229,12 @@
   
   /* Float */
   .float {
-    display: inline-block;
+    display: inline-block !important;
   }
   .float:hover{
     cursor: pointer;
-    transform: translateY(-12px);
-    display: inline-block;
+    transform: translateY(-4px);
+    display: inline-block !important;
   }
   
   /* fill */
@@ -248,19 +248,5 @@
   .fill:hover {
     cursor: pointer;
     color: var(--bs-primary);
-    display: inline-block;
-  }
-
-  //reveal
-  .reveal span{
-    cursor: pointer;
-    opacity: 0;
-    transition: 0.3s ease-in-out;
-    display: inline-block;
-  }
-  .reveal:hover span{
-    cursor: pointer;
-    opacity: 1;
-    transition: 0.3s ease-in-out;
     display: inline-block;
   }
