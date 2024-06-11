@@ -159,18 +159,18 @@
   // Hover underline animation https://uiverse.io/alexmaracinaru/empty-moose-12
 
   .cta {
-    border: none !important;
-    border-width: 0px !important;
-    color: #fff0 !important;
-    background: #fff0 !important;
-    background-color: #fff0 !important;
+    //border: none !important;
+    //border-width: 0px !important;
+    //color: #fff0 !important;
+    //background: #fff0 !important;
+    //background-color: #fff0 !important;
     cursor: pointer;
   }
   .cta span {
     padding-bottom: 4px;
-    text-decoration: none;
-    text-decoration-line: none;
-    text-decoration-thickness: 0px;
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+    text-decoration-thickness: 0px !important;
   }
   .underline-animation {
     position: relative;
@@ -231,6 +231,7 @@
   .float:hover{
     cursor: pointer;
     transform: translateY(-12px);
+    display: inline-block;
   }
   
   /* fill */
@@ -240,18 +241,22 @@
     color: transparent;
     -webkit-text-stroke-color: var(--bs-primary);
     -webkit-text-stroke-width: 1px;
+    display: inline-block;
   }
   .fill:hover {
     cursor: pointer;
     color: var(--bs-primary);
+    display: inline-block;
   }
 
   //reveal
-  span{
+  .reveal span{
     opacity: 0;
     transition: 0.3s ease-in-out;
+    display: inline-block;
   }
   .reveal:hover span{
     opacity: 1;
     transition: 0.3s ease-in-out;
+    display: inline-block;
   }
