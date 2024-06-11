@@ -148,6 +148,20 @@
     outline-offset: 3px;
   }
 
+/*
+ *    |‾‾‾\    |      |   ‾‾‾|‾‾‾   ‾‾‾|‾‾‾    /‾‾‾‾\    |\   |   /‾‾‾‾
+ *    |___/    |      |      |         |      |      |   | \  |   \___
+ *    |    \   |      |      |         |      |      |   |  \ |       \
+ *    |____/    \____/       |         |       \____/    |   \|   ____/
+*/
+  .gradient-border-btn{
+    background: linear-gradient(white, white) padding-box,
+      linear-gradient(45deg, var(--bs-primary) 0%, var(--bs-primary-border-subtle) 100%) border-box;
+    border: solid 2px transparent;
+  }
+  .gradient-border-btn:hover {
+    border: solid 2px white;
+  }
 
 /*
  *    |      |   |\   |   |‾‾‾\    |‾‾‾‾   |‾‾‾\   |       ‾‾|‾‾   |\   |   |‾‾‾‾
@@ -165,6 +179,9 @@
     //background: #fff0 !important;
     //background-color: #fff0 !important;
     cursor: pointer;
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+    text-decoration-thickness: 0px !important;
   }
   .cta span {
     padding-bottom: 4px;
