@@ -194,7 +194,7 @@
   }
   .underline-animation {
     position: relative;
-    color: inherit;
+    color: black;
     padding-bottom: 10px;
   }
   .underline-animation:after {
