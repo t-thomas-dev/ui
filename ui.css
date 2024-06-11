@@ -1,4 +1,4 @@
-//     version  6/10/24  11:10
+//     version  6/11/24  10:58
 
 /*
  *    /‾‾‾‾   |‾‾‾‾   ‾‾‾|‾‾‾   |      |   |‾‾‾\
@@ -228,6 +228,9 @@
   }
   
   /* Float */
+  .float {
+    display: inline-block;
+  }
   .float:hover{
     cursor: pointer;
     transform: translateY(-12px);
@@ -236,7 +239,6 @@
   
   /* fill */
   .fill{
-    cursor: pointer;
     cursor: pointer;
     color: transparent;
     -webkit-text-stroke-color: var(--bs-primary);
@@ -251,11 +253,13 @@
 
   //reveal
   .reveal span{
+    cursor: pointer;
     opacity: 0;
     transition: 0.3s ease-in-out;
     display: inline-block;
   }
   .reveal:hover span{
+    cursor: pointer;
     opacity: 1;
     transition: 0.3s ease-in-out;
     display: inline-block;
