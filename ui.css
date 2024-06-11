@@ -157,7 +157,7 @@
   .gradient-border-btn{
     background: linear-gradient(white, white) padding-box,
       linear-gradient(45deg, var(--bs-primary) 0%, var(--bs-primary-border-subtle) 100%) border-box;
-    border: solid 2px #dee2e6;
+    border: solid 2px transparent;
   }
   .gradient-border-btn:hover {
     border: solid 2px #dee2e6;
