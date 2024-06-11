@@ -184,6 +184,9 @@
     text-decoration-thickness: 0px !important;
   }
   .cta span {
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
     padding-bottom: 4px;
     text-decoration: none !important;
     text-decoration-line: none !important;
@@ -191,7 +194,7 @@
   }
   .underline-animation {
     position: relative;
-    color: black;
+    color: inherit;
     padding-bottom: 10px;
   }
   .underline-animation:after {
@@ -202,7 +205,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #000000;
+    background-color: inherit;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
