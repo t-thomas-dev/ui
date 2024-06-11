@@ -162,6 +162,9 @@
   .gradient-border-btn:hover {
     border: solid 2px #dee2e6;
   }
+  .gradient-border-btn:active {
+    border: solid 2px #dee2e6;
+  }
 
 /*
  *    |      |   |\   |   |‾‾‾\    |‾‾‾‾   |‾‾‾\   |       ‾‾|‾‾   |\   |   |‾‾‾‾
@@ -179,18 +182,15 @@
     //background: #fff0 !important;
     //background-color: #fff0 !important;
     cursor: pointer;
-    text-decoration: none !important;
-    text-decoration-line: none !important;
-    text-decoration-thickness: 0px !important;
   }
   .cta span {
     padding-left: 0px;
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 4px;
-    text-decoration: none !important;
+/*     text-decoration: none !important;
     text-decoration-line: none !important;
-    text-decoration-thickness: 0px !important;
+    text-decoration-thickness: 0px !important; */
   }
   .underline-animation {
     position: relative;
