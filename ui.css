@@ -215,6 +215,11 @@
  *    |____      |        \__         |     |    \____/       \/      |____   |   \
 */
 
+  .scale{
+    cursor: pointer;
+    display: inline-block;
+    transform-origin: center;
+  }
   .scale:hover{
     cursor: pointer;
     scale: 1.05;
@@ -244,7 +249,9 @@
   //reveal
   span{
     opacity: 0;
+    transition: 0.3s ease-in-out;
   }
   .reveal:hover span{
     opacity: 1;
+    transition: 0.3s ease-in-out;
   }
