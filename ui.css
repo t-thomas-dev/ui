@@ -181,8 +181,11 @@
     cursor: pointer;
   }
   
-  .cta span {
+  .cta a {
     padding-bottom: 7px;
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+    text-decoration-thickness: 0px !important;
   }
   
   .hover-underline-animation {
