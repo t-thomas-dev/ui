@@ -215,8 +215,8 @@
   // Hover thin/thick underline
 
   .underline {
-    text-decoration: underline;
-    text-decoration-thickness: 1px  !important;
+    text-decoration: underline !important;
+    text-decoration-thickness: 1px !important;
     text-underline-offset: 0.2rem !important;
   }
   .underline:hover {
