@@ -147,6 +147,11 @@
     border-radius: 1.2px;
     outline-offset: 3px;
   }
+  .no-underline {
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+    text-decoration-thickness: 0px !important;
+  }
 
 /*
  *    |‾‾‾\    |      |   ‾‾‾|‾‾‾   ‾‾‾|‾‾‾    /‾‾‾‾\    |\   |   /‾‾‾‾
