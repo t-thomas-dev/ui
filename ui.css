@@ -1,4 +1,4 @@
-//     version  24/7  1.0.6
+//     version  24/7  1.0.7
 
 /*
  *    /‾‾‾‾   |‾‾‾‾   ‾‾‾|‾‾‾   |      |   |‾‾‾\
@@ -142,7 +142,7 @@
   *:where(:not(:active)):focus-visible {
     transition: 0.11s ease-in-out;
     outline: 3px solid rgba(0, 94, 235, 0.70);
-    border-radius: 1.2px;
+/*     border-radius: 1.2px; */
     outline-offset: 3px;
   }
   .no-underline {
